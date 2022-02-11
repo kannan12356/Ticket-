@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main{
+    background-color: #d84f57;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-size: 30px;
+    color: #d84f57;
+}
+
+.form-box{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px #333;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form-input{
+    width: 400px;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #d84f57;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.submit-btn{
+    outline: none;
+    border: 1px solid #d84f57;
+    padding: 8px;
+    background: none;
+    border-radius: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.social-login{
+    margin: 10px 0;
+}
+
+.social-btn{
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: none;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.fb{
+    background-color: royalblue;
+}
+
+.google{
+    background-color: #ef1717;
+}
+
+.sub-para{
+    color: grey;
+}
+
+.sub-para a{
+    color: royalblue;
+}
+
+.cancel a{
+    color: royalblue;
+    font-size: 10px;
+}

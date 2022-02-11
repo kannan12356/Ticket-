@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    background-color: #d84f57;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo{
+    margin: 0 10px;
+    border-top: 3px solid;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10px 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo p{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    font-family: cursive;
+}
+
+.logo-img{
+    width: 60px;
+}
+
+.search-form{
+    margin: 0 10px;
+    display: flex;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.form-control label{
+    font-size: 12px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.form-input{
+    outline: none;
+    border: none;
+    width: 250px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.search-btn{
+    border: none;
+    color: #fff;
+    background-color: #d84f57;
+    font-size: 22px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.user-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-details a{
+    font-weight: bold;
+    color: #fff;
+    margin: 0 10px;
+}
